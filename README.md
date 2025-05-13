@@ -22,9 +22,12 @@ pip install -r requirements.txt
 ```
 
 3. Summary of the Code
-- Only Visual to Generated Graphics scripts
--- `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red. 
--- `requirements.txt`: Python dependencies
+- [Only Visual to Generated Graphics scripts]
+- `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red. 
+
+
+- [Files]
+- `requirements.txt`: Python dependencies
 
 ## 🧠 Author
 - TAGC - tacigomess@me.com
