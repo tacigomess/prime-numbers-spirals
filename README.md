@@ -29,6 +29,7 @@ pip install -r requirements.txt
 
 - [Files]
 - `requirements.txt`: Python dependencies
-
+- `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
+- 
 ## 🧠 Author
 - TAGC - tacigomess@me.com
