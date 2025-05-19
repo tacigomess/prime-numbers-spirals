@@ -22,6 +22,7 @@ pip install -r requirements.txt
 ```
 
 3. Summary of the Code
+   
 3.1 [Only visual to generate graphics scripts]
 - `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red.
 - `prime_spiral.py`: Shows the spiral with only prime numbers up to [n = 1000].
