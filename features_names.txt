@@ -1,0 +1,40 @@
+Feature Descriptions for the Prime Spiral Dataset
+The generated dataset contains structured information for each number 𝑛
+n from 2 to 10,000, aiming to train a classifier capable of predicting whether 
+a number is prime based on geometric properties derived from a polar spiral. 
+Below is a description of each feature:
+
+🔹 x and y – Cartesian Coordinates
+Description: Position of the number on the spiral, converted to Cartesian plane.
+Importance: Enables spatial visualization and helps detect clusters 
+or visual patterns among prime numbers.
+
+🔸 r – Radius
+Description: Radial distance from the origin to the point on the spiral.
+Importance: In a polar spiral, larger primes are located further from the center,
+ which relates to the natural rarefaction of prime numbers.
+
+🔸 theta – Polar Angle
+Description: Angular position of the number in the spiral.
+Importance: Helps identify symmetries and alignments of primes across spiral turns.
+
+🔹 prime_density – Local Prime Density
+Description: Number of prime numbers located within a fixed radius (e.g., 10 units) 
+around the point 
+Importance: Captures the "neighborhood" density — whether the number lies in a 
+prime-rich or prime-sparse region.
+
+🔹 avg_prime_distance – Average Distance to Nearby Primes
+Description: Average Euclidean distance from the number to nearby primes within 
+a certain radius.
+
+Importance: Measures how tightly packed nearby primes are. Smaller average 
+distances indicate a denser prime neighborhood.
+
+🎯 is_prime – Target Label
+Description: Binary class label indicating whether the number is prime (1) or 
+not (0).
+
+Importance: This is the target to be predicted by the classifier, using the 
+other variables as features.
+
