@@ -33,8 +33,9 @@ pip install -r requirements.txt
 - `prime_spiral_calculate_metrics_from_csv.py`: Calculate the metrics with all distances
 
 3.3 [Classifier and Dataset]
-- `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
+- `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
+
 
 3.4 [General Files]
 - `requirements.txt`: Python dependencies
