@@ -26,10 +26,12 @@ pip install -r requirements.txt
 - `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red.
 - `prime_spiral.py`: Shows the spiral with only prime numbers up to [n = 1000].
 
-
-- [Files]
-- `requirements.txt`: Python dependencies
+- [Classifier and Dataset]
+- `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
-- 
+
+- [General Files]
+- `requirements.txt`: Python dependencies
+  
 ## 🧠 Author
 - TAGC - tacigomess@me.com
