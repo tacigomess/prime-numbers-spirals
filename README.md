@@ -3,7 +3,7 @@ Paper: Geometric Regularity in the Distribution of Prime Numbers on Polar Spiral
 
 Describe later...
 
-## 🚀 How to Run
+## How to Run
 
 0. (1 time only): Create your env
 ```bash
@@ -27,8 +27,9 @@ pip install -r requirements.txt
 - `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red.
 - `prime_spiral.py`: Shows the spiral with only prime numbers up to [n = 1000].
 
-3.2 [Distance Calculate]
+3.2 [Distance Calculation]
 - `prime_spiral_generate_csv.py`: Generate a dataset with distances from 10.000 numbers
+- `prime_spiral_distances_columns.csv`: Dataset (.csv) with distances from 10.000 numbers
 - `prime_spiral_calculate_metrics_from_csv.py`: Calculate the metrics with all distances
 
 3.3 [Classifier and Dataset]
@@ -38,5 +39,5 @@ pip install -r requirements.txt
 3.4 [General Files]
 - `requirements.txt`: Python dependencies
   
-## 🧠 Author
+## Author
 - TAGC - tacigomess@me.com
