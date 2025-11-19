@@ -43,6 +43,11 @@ Describe later...
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+3. git clone
+```bash
+git clone git@github.com:tacigomess/prime-numbers-spirals.git
+```
   
 ## Author
 - TAGC - tacigomess@me.com
