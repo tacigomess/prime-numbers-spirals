@@ -33,7 +33,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 ![Image generated](Spiral_Natural_Numbers_with_Primes.png)
 
 - `prime_spiral.py`: Shows the spiral with only prime numbers up to [n = 1000].
-![Image generated](Primes_spiral.png)
+![Image generated](Prime_spiral.png)
 
 2. [Distance Calculation]
 - `prime_spiral_generate_csv.py`: Generate a dataset with distances from 10.000 numbers
