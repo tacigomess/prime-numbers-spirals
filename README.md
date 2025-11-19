@@ -30,6 +30,8 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
    
 1. [Only visual to generate graphics scripts]
 - `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red.
+![Image generated](Spiral_Natural_Numbers_with_Primes.png)
+
 - `prime_spiral.py`: Shows the spiral with only prime numbers up to [n = 1000].
 
 2. [Distance Calculation]
