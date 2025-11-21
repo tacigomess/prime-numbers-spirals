@@ -35,7 +35,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 - `prime_spiral.py`: Shows the spiral with only prime numbers up to [n = 1000].
 ![Image generated](Prime_spiral.png)
 
-- `Prime_Spiral_distance_ratios.py`: Shows the spiral with parallel Arcs - prime numbers up to [n = 1000].
+- `prime_spiral_with_parallel_arc_connections.py`: Shows the spiral with parallel Arcs - prime numbers up to [n = 1000].
 ![Image generated](Prime_parallel_arcs.png)
 
 2. [Distance Calculation]
