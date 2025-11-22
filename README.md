@@ -59,15 +59,15 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
    Prime density: Number of primes within a 10-unit radius
    Average distance to nearby primes
    Target variable: Whether the number is prime (1) or not (0)
-- 
-- 
+  
+  
 - Code used for training the classifier: `train_and_analyze_random_forest.py`
-- 
+-
 - ![Confusion Matrix](confusion_matrix.png)
--  
--  
+   
+   
 4. [General Files]
 - `requirements.txt`: Python dependencies\
--   
+    
 ## Author
 - TAGC - tacigomess@me.com
