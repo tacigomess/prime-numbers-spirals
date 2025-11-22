@@ -42,7 +42,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 - `prime_spiral_generate_csv.py`: Generate a dataset with distances from 10.000 numbers
 - `prime_spiral_distances_columns.csv`: Dataset (.csv) with distances from 10.000 numbers
 - `prime_spiral_calculate_metrics_from_csv.py`: Calculate the metrics with all distances
-
+- 
 3. [Classifier and Dataset]
 - Generated Dataset to Random Forest Classifier
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
@@ -62,6 +62,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 - 
 - 
 - Code used for training the classifier: `train_and_analyze_random_forest.py`
+- 
 - Confusion Matrix:
 [[1747    1]
  [   7  245]]
@@ -77,9 +78,6 @@ Classification Report:
 weighted avg       1.00      1.00      1.00      2000
 
 Accuracy Score: 0.996
-
-
-
 4. [General Files]
 - `requirements.txt`: Python dependencies
   
