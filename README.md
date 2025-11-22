@@ -63,21 +63,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 - 
 - Code used for training the classifier: `train_and_analyze_random_forest.py`
 - 
-- Confusion Matrix:
-- [[1747    1]
--  [   7  245]]
-- 
-- Classification Report:
--               precision    recall  f1-score   support
-- 
--            0       1.00      1.00      1.00      1748
--            1       1.00      0.97      0.98       252
-- 
--     accuracy                           1.00      2000
--    macro avg       1.00      0.99      0.99      2000
--  weighted avg       1.00      1.00      1.00      2000
--  
--  Accuracy Score: 0.996
+- ![Confusion Matrix](confusion_matrix.png)
 -  
 -  
 4. [General Files]
