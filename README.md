@@ -28,7 +28,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 
 ## Summary of the Code
    
-1. [Only visual to generate graphics scripts]
+1. [Only visual to generate graphics]
 - `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red.
 ![Image generated](Spiral_Natural_Numbers_with_Primes.png)
 
@@ -44,11 +44,12 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 - `prime_spiral_calculate_metrics_from_csv.py`: Calculate the metrics with all distances
 
 3. [Classifier and Dataset]
-- COMO GERAR O DATASET? 
+- Generated Dataset to Random Forest Classifier
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
 - `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
-- ClASSIFICADOR
-- METRICAS
+-
+- 3.1 [Random Forest Classifier]
+- Metrics
 
 4. [General Files]
 - `requirements.txt`: Python dependencies
