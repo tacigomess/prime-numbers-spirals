@@ -50,6 +50,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 -
 - 3.1 [Random Forest Classifier]
 - 
+- Features: `dataset_generator_csv_random_forest.py`
 - This dataset included geometric and local context features for each number from 2 to 10,000.
 - Features used for classification:
    n,x,y,r,theta,is_prime,prime_density,avg_prime_dist
@@ -58,10 +59,26 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
    Prime density: Number of primes within a 10-unit radius
    Average distance to nearby primes
    Target variable: Whether the number is prime (1) or not (0)
-- `dataset_generator_csv_random_forest.py`
-- Metrics
 - 
-- Code used for training the classifier: `train_random_forest_classifier.py`
+- 
+- Code used for training the classifier: `train_and_analyze_random_forest.py`
+- Confusion Matrix:
+[[1747    1]
+ [   7  245]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1748
+           1       1.00      0.97      0.98       252
+
+    accuracy                           1.00      2000
+   macro avg       1.00      0.99      0.99      2000
+weighted avg       1.00      1.00      1.00      2000
+
+Accuracy Score: 0.996
+
+
 
 4. [General Files]
 - `requirements.txt`: Python dependencies
