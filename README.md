@@ -1,7 +1,7 @@
 # prime-numbers-spirals
 Paper: Geometric Regularity in the Distribution of Prime Numbers on Polar Spirals
 
-Describe later...
+[Document](https://docs.google.com/document/d/11sa36fFxUokgMzjVDVdVdCFUfjkujBwkSI9eKV9YrwQ/edit?tab=t.0)
 
 ## How to Run
 
