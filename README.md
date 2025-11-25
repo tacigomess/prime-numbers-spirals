@@ -15,15 +15,14 @@ Paper: Geometric Regularity in the Distribution of Prime Numbers on Polar Spiral
    source names_env/bin/activate
 ```
 
-2. Install the dependencies:
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-3. git clone
+2. git clone
 ```bash
 git clone git@github.com:tacigomess/prime-numbers-spirals.git
+```
+
+3. Install the dependencies:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Summary of the Code
@@ -42,32 +41,25 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 - `prime_spiral_generate_csv.py`: Generate a dataset with distances from 10.000 numbers
 - `prime_spiral_distances_columns.csv`: Dataset (.csv) with distances from 10.000 numbers
 - `prime_spiral_calculate_metrics_from_csv.py`: Calculate the metrics with all distances
-- 
-3. [Classifier and Dataset]
-- Generated Dataset to Random Forest Classifier
+ 
+
+3. [Random Forest Classifier] - [Classifier and Dataset]
+Generated Dataset to Random Forest Classifier
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
 - `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
--
-- 3.1 [Random Forest Classifier]
-- 
-- Features: `dataset_generator_csv_random_forest.py`
-- This dataset included geometric and local context features for each number from 2 to 10,000.
+
+- code: `dataset_generator_csv_random_forest.py` to generate: `prime_spiral_features_dataset.csv`
+This dataset included geometric and local context features for each number from 2 to 10,000.
 - Features used for classification:
-   n,x,y,r,theta,is_prime,prime_density,avg_prime_dist
-   x, y: Cartesian coordinates in the spiral
-   r, θ: Polar coordinates (radius and angle)
-   Prime density: Number of primes within a 10-unit radius
-   Average distance to nearby primes
-   Target variable: Whether the number is prime (1) or not (0)
+-  n,x,y,r,theta,is_prime,prime_density,avg_prime_dist
+-  x, y: Cartesian coordinates in the spiral
+-  r, θ: Polar coordinates (radius and angle)
+-  Prime density: Number of primes within a 10-unit radius
+-  Average distance to nearby primes
+-  Target variable: Whether the number is prime (1) or not (0)
   
-  
-- Code used for training the classifier: `train_and_analyze_random_forest.py`
--
-- ![Confusion Matrix](confusion_matrix.png)
-   
-   
-4. [General Files]
-- `requirements.txt`: Python dependencies\
+Code used for training the classifier: `train_and_analyze_random_forest.py`
+![Confusion Matrix](confusion_matrix.png)
     
 ## Author
 - TAGC - tacigomess@me.com
