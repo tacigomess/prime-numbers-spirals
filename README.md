@@ -44,7 +44,7 @@ pip install -r requirements.txt
  
 
 3. [Random Forest Classifier] - [Classifier and Dataset]
-Generated Dataset to Random Forest Classifier
+- Generated Dataset to Random Forest Classifier
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
 - `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
 
