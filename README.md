@@ -25,7 +25,7 @@ git clone git@github.com:tacigomess/prime-numbers-spirals.git
 pip install -r requirements.txt
 ```
 
-## Summary of the Code
+## Code
    
 1. [Only visual to generate graphics]
 - `spiral_all_numbers.py`: Shows the spiral with all natural numbers up to [n = 1000] with the prime numbers highlighted in red.
@@ -49,8 +49,9 @@ Generated Dataset to Random Forest Classifier
 - `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
 
 - code: `dataset_generator_csv_random_forest.py` to generate: `prime_spiral_features_dataset.csv`
+
 This dataset included geometric and local context features for each number from 2 to 10,000.
-- Features used for classification:
+-  Features used for classification:
 -  n,x,y,r,theta,is_prime,prime_density,avg_prime_dist
 -  x, y: Cartesian coordinates in the spiral
 -  r, θ: Polar coordinates (radius and angle)
@@ -58,7 +59,7 @@ This dataset included geometric and local context features for each number from 
 -  Average distance to nearby primes
 -  Target variable: Whether the number is prime (1) or not (0)
   
-Code used for training the classifier: `train_and_analyze_random_forest.py`
+Training the classifier: `train_and_analyze_random_forest.py`
 ![Confusion Matrix](confusion_matrix.png)
     
 ## Author
