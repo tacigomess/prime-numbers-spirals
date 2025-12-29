@@ -1,10 +1,12 @@
 # prime-numbers-spirals
 
+# prime-numbers-spirals
 
 This repository corresponds to **Article 0** of a broader research project on geometric representations of prime numbers.
 
 The focus here is the **historical and geometric construction of a polar spiral embedding of prime numbers**, prior to the introduction of halo-based density analysis.
 
+---
 
 ## Scope of This Work 
 
@@ -15,8 +17,9 @@ This repository investigates:
 - Distance patterns between primes separated by fixed index steps
 - Statistical regularity across multiple discrete scales
 
-This work does **not** introduce halo structures, local density fields. These topics are addressed in subsequent articles.
+This work does **not** introduce halo structures or local density fields. These topics are addressed in subsequent articles.
 
+---
 
 ## Important Note on the Spiral Index
 
@@ -27,6 +30,8 @@ As a result:
 - It does **not** correspond directly to the natural number n
 
 This distinction is fundamental for the interpretation of all geometric patterns shown in this work.
+
+---
 
 ## Code Overview
 
@@ -41,6 +46,8 @@ This distinction is fundamental for the interpretation of all geometric patterns
 - `prime_spiral_with_parallel_arc_connections.py`  
   Connects primes separated by fixed index steps (e.g., 63), revealing quasi-parallel arc structures.
 
+---
+
 ### Distance Analysis
 
 - `prime_spiral_generate_csv.py`  
@@ -51,6 +58,8 @@ This distinction is fundamental for the interpretation of all geometric patterns
 
 Note: NaN values appear naturally near the end of the dataset, as distances beyond the available prime index cannot be computed. These values are excluded from statistical analysis.
 
+---
+
 ### Exploratory Machine Learning
 
 - `dataset_generator_csv_random_forest.py`
@@ -58,13 +67,16 @@ Note: NaN values appear naturally near the end of the dataset, as distances beyo
 
 These scripts explore whether geometric features derived from the spiral embedding carry information correlated with primality. This analysis is exploratory and not presented as a predictive theory.
 
+---
+
 ## Paper
 
 This document provides the mathematical motivation, experimental setup, and interpretation of the results.
 
-Paper: Geometric Regularity in the Distribution of Prime Numbers on Polar Spirals
+**Paper:**  
+*Geometric Regularity in the Distribution of Prime Numbers on Polar Spirals*
 
-[Document](https://docs.google.com/document/d/11sa36fFxUokgMzjVDVdVdCFUfjkujBwkSI9eKV9YrwQ/edit?tab=t.0)
+[Document](https://docs.google.com/document/d/11sa36fFxUokgMzjVDVdVdCFUfjkujBwkSI9eKV9YrwQ/edit)
 
 
 ## How to Run
