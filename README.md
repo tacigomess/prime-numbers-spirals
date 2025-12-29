@@ -1,7 +1,5 @@
 # prime-numbers-spirals
 
-# prime-numbers-spirals
-
 This repository corresponds to **Article 0** of a broader research project on geometric representations of prime numbers.
 
 The focus here is the **historical and geometric construction of a polar spiral embedding of prime numbers**, prior to the introduction of halo-based density analysis.
