@@ -71,9 +71,7 @@ These scripts explore whether geometric features derived from the spiral embeddi
 
 This document provides the mathematical motivation, experimental setup, and interpretation of the results.
 
-**Paper:**  
 *Geometric Regularity in the Distribution of Prime Numbers on Polar Spirals*
-
 [Document](https://docs.google.com/document/d/11sa36fFxUokgMzjVDVdVdCFUfjkujBwkSI9eKV9YrwQ/edit)
 
 
@@ -112,21 +110,21 @@ pip install -r requirements.txt
 ![Image generated](Prime_parallel_arcs.png)
 
 2. [Distance Calculation]
-- `prime_spiral_generate_csv.py`: Generate a dataset with distances from 10.000 numbers
-- `prime_spiral_distances_columns.csv`: Dataset (.csv) with distances from 10.000 numbers
+- `prime_spiral_generate_csv.py`: Generate a dataset with distances from 10,000 numbers
+- `prime_spiral_distances_columns.csv`: Dataset (.csv) with distances from 10,000 numbers
 - `prime_spiral_calculate_metrics_from_csv.py`: Calculate the metrics with all distances
  
 
 3. [Random Forest Classifier] - [Classifier and Dataset]
 - Generated Dataset to Random Forest Classifier
 - `features_names.txt`: Names/description of all features in the database for the Random Forest Classifier
-- `prime_spiral_features_dataset.csv`: Dataset with 10.000 numbers
+- `prime_spiral_features_dataset.csv`: Dataset with 10,000 numbers
 
 - code: `dataset_generator_csv_random_forest.py` to generate: `prime_spiral_features_dataset.csv`
 
 This dataset included geometric and local context features for each number from 2 to 10,000.
 -  Features used for classification:
--  n,x,y,r,theta,is_prime,prime_density,avg_prime_dist
+-  n, x, y, r, theta, is_prime, prime_density, avg_prime_dist
 -  x, y: Cartesian coordinates in the spiral
 -  r, θ: Polar coordinates (radius and angle)
 -  Prime density: Number of primes within a 10-unit radius
