@@ -133,6 +133,3 @@ This dataset included geometric and local context features for each number from 
   
 Training the classifier: `train_and_analyze_random_forest.py`
 ![Confusion Matrix](confusion_matrix.png)
-    
-## Author
-- TAGC - tacigomess@me.com
