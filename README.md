@@ -1,4 +1,11 @@
 # prime-numbers-spirals
+
+
+This repository corresponds to **Article 0** of a broader research project on geometric representations of prime numbers.
+
+The focus here is the **historical and geometric construction of a polar spiral embedding of prime numbers**, prior to the introduction of halo-based density analysis.
+
+
 Paper: Geometric Regularity in the Distribution of Prime Numbers on Polar Spirals
 
 [Document](https://docs.google.com/document/d/11sa36fFxUokgMzjVDVdVdCFUfjkujBwkSI9eKV9YrwQ/edit?tab=t.0)
