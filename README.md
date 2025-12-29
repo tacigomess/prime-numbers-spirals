@@ -6,9 +6,66 @@ This repository corresponds to **Article 0** of a broader research project on ge
 The focus here is the **historical and geometric construction of a polar spiral embedding of prime numbers**, prior to the introduction of halo-based density analysis.
 
 
+## Scope of This Work 
+
+This repository investigates:
+
+- The construction of polar spirals for natural numbers and for primes only
+- The emergence of geometric regularity when primes are embedded in polar coordinates
+- Distance patterns between primes separated by fixed index steps
+- Statistical regularity across multiple discrete scales
+
+This work does **not** introduce halo structures, local density fields. These topics are addressed in subsequent articles.
+
+
+## Important Note on the Spiral Index
+
+In the prime-only spiral constructions, angular and radial increments are applied **only when a prime number is detected**.
+
+As a result:
+- The geometric index of the spiral corresponds to the **order of primes**
+- It does **not** correspond directly to the natural number n
+
+This distinction is fundamental for the interpretation of all geometric patterns shown in this work.
+
+## Code Overview
+
+### Visualization
+
+- `spiral_all_numbers.py`  
+  Displays the polar spiral of natural numbers up to n = 1000, highlighting primes.
+
+- `prime_spiral.py`  
+  Displays a polar spiral constructed exclusively from prime numbers.
+
+- `prime_spiral_with_parallel_arc_connections.py`  
+  Connects primes separated by fixed index steps (e.g., 63), revealing quasi-parallel arc structures.
+
+### Distance Analysis
+
+- `prime_spiral_generate_csv.py`  
+  Computes Euclidean distances between prime points separated by fixed index steps (63, 126, 189).
+
+- `prime_spiral_distances_columns.csv`  
+  Contains the resulting distance sequences.
+
+Note: NaN values appear naturally near the end of the dataset, as distances beyond the available prime index cannot be computed. These values are excluded from statistical analysis.
+
+### Exploratory Machine Learning
+
+- `dataset_generator_csv_random_forest.py`
+- `train_and_analyze_random_forest.py`
+
+These scripts explore whether geometric features derived from the spiral embedding carry information correlated with primality. This analysis is exploratory and not presented as a predictive theory.
+
+## Paper
+
+This document provides the mathematical motivation, experimental setup, and interpretation of the results.
+
 Paper: Geometric Regularity in the Distribution of Prime Numbers on Polar Spirals
 
 [Document](https://docs.google.com/document/d/11sa36fFxUokgMzjVDVdVdCFUfjkujBwkSI9eKV9YrwQ/edit?tab=t.0)
+
 
 ## How to Run
 
