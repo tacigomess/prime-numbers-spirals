@@ -133,3 +133,7 @@ This dataset included geometric and local context features for each number from 
   
 Training the classifier: `train_and_analyze_random_forest.py`
 ![Confusion Matrix](confusion_matrix.png)
+
+Code (Python scripts, shell, etc.): MIT License (see LICENSE).
+Article text, documentation and explanatory figures: CC BY 4.0
+© 2025 Taciana Gomes. You may share and adapt the material, provided appropriate credit is given.
